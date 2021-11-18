@@ -1,13 +1,13 @@
 {
-  "name": "roukmoute/hashids-bundle",
+  "name": "nanomonx/hashids-bundle",
   "type": "symfony-bundle",
-  "description": "Integrates hashids/hashids in a Symfony project",
+  "description": "Integrates hashids/hashids in a Symfony project. Adapt roukmoute/hashids-bundle to makes it working with php8 and symfony 5.*",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
-      "name": "Mathias STRASSER",
-      "email": "contact@roukmoute.fr"
+      "name": "Quentin Debest",
+      "email": "quentin.debest@nanomonx.com"
     }
   ],
   "autoload": {
@@ -25,14 +25,14 @@
     "hashids/hashids": "^4.1",
     "phpspec/phpspec" : "^7.0",
     "sensio/framework-extra-bundle": "^6",
-    "symfony/http-kernel": "^5.0"
+    "symfony/http-kernel": "^5.4.x-dev"
   },
   "require-dev": {
     "twig/twig": "^3.0"
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.2"
+      "dev-master": "2.3"
     }
   },
   "suggest": {
