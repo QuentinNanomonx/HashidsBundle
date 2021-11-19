@@ -25,7 +25,7 @@
     "hashids/hashids": "^4.1",
     "phpspec/phpspec" : "^7.0",
     "sensio/framework-extra-bundle": "^6",
-    "symfony/http-kernel": "^5.4.x-dev"
+    "symfony/http-kernel": "^5.3"
   },
   "require-dev": {
     "twig/twig": "^3.0"
